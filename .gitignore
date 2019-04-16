@@ -1,4 +1,5 @@
 # Don't track the following files
 daraja/
 venv/
+test.py
 
