@@ -12,8 +12,8 @@ class Authenticate(object):
 		3. auth_url: this is the authentication url provided
 	"""
 	consumer_key = "dyX8FVcKaEdoW7uATTA4wDyvPZWxIRXV"
-    consumer_secret = "tKTUOfQjNup9QnUF"
-    auth_url = "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials"
+	consumer_secret = "tKTUOfQjNup9QnUF"
+	auth_url = "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials"
 
 class Reversal(object):
 	"""
@@ -68,14 +68,14 @@ class AccountBalance(object):
 		9. account_type	-> Organisation receiving the funds.
 
 	"""
-    initiator = "testapi"
-    security_credential = "2222"
-    command_id = "AccountBalance"
-    party_a = "600388"
-    identifier_type = "4"
-    queue_time_out_url = "https://thamanionline.com/callbacks/validate"
-    remarks = "Welcome to Omambia Dauglous Daraja API Wrapper"
-    result_url =  "https://thamanionline.com/callbacks/validate"
+	initiator = "testapi"
+	security_credential = "2222"
+	command_id = "AccountBalance"
+	party_a = "600388"
+	identifier_type = "4"
+	queue_time_out_url = "https://thamanionline.com/callbacks/validate"
+	remarks = "Welcome to Omambia Dauglous Daraja API Wrapper"
+	result_url =  "https://thamanionline.com/callbacks/validate"
 
 
 

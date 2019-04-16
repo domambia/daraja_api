@@ -25,11 +25,12 @@ class Authenticate(object):
 	"""
 
 	def get_token(self):
-		results = requests.get(auth.api_url, 
-				auth = HTTPBasicAuth(auth.consumer_key, consumer_secret) )
-		data  = json.loads(results)
+		results = requests.get(auth.auth_url, 
+				auth = HTTPBasicAuth(auth.consumer_key, auth.consumer_secret) )
+		data  = json.loads(results.text)
 
 		return data['access_token']
 
 	def get_encrypted_password(self):
-		
+		pass
+
